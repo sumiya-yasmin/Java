@@ -1,3 +1,4 @@
+package pattern;
 public class HollowRectangle {
     public static void main(String[] args) {
         int n=4;

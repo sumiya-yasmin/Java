@@ -1,3 +1,4 @@
+package pattern;
 public class HollowButterflyPatter {
     public static void main(String[] args) {
         int n=5;

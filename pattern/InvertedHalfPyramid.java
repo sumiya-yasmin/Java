@@ -1,3 +1,4 @@
+package pattern;
 public class InvertedHalfPyramid {
     public static void main(String[] args) {
         int n=4;
