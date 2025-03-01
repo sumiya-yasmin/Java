@@ -10,7 +10,7 @@ public class ClearBit {
         System.out.print("Enter the value of posistion: ");
         int i = sc.nextInt();
         int bitMask = 1<<i;
-        int newNUmber = !(bitMask) & n;
+        int newNUmber = ~(bitMask) & n;
 
         String binaryString = Integer.toBinaryString(newNUmber);
         System.out.println("Binary representation: " + binaryString);
